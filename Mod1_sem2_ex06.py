@@ -1,7 +1,7 @@
-#Um nutricionista está precisando de uma ajuda para calcular o IMC de seus pacientes. 
-# Para calcular o IMC ele passou a seguinte fórmula: IMC = peso / ( altura )². 
-# Crie um programa que faça o cálculo do IMC de uma pessoa (ele deve ser impresso na tela) 
-# e classifique o IMC dessa pessoa de acordo com a tabela (também deverá ser impresso):
+'''Um nutricionista está precisando de uma ajuda para calcular o IMC de seus pacientes. 
+Para calcular o IMC ele passou a seguinte fórmula: IMC = peso / ( altura )². 
+Crie um programa que faça o cálculo do IMC de uma pessoa (ele deve ser impresso na tela) 
+e classifique o IMC dessa pessoa de acordo com a tabela (também deverá ser impresso):'''
 
 peso = float(input('Digite o seu peso: '))
 altura = float(input('Digite sua altura: '))

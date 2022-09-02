@@ -1,7 +1,7 @@
-# Crie uma aplicação que calcule a quantidade de reais (R$) que o Sr.
-# João possui moedas no caixa. A aplicação deve imprimir o valor total em reais (R$), 
-# pode-se utilizar ponto flutuante para poder representar o valor com duas casas decimais 
-# no momento que for imprimir na tela o valor.
+'''Crie uma aplicação que calcule a quantidade de reais (R$) que o Sr.
+João possui moedas no caixa. A aplicação deve imprimir o valor total em reais (R$), 
+pode-se utilizar ponto flutuante para poder representar o valor com duas casas decimais 
+no momento que for imprimir na tela o valor.
 
 
 #Moeda         | Quantidade
@@ -11,6 +11,7 @@
 #25 centavos   |     30
 #50 centavos   |     15
 #1 real        |     19
+'''
 
 
 

@@ -1,4 +1,4 @@
-#Criei um programa que calcule o peso ideal de uma pessoa. Para isso utilize as fórmulas da tabela:
+'''Criei um programa que calcule o peso ideal de uma pessoa. Para isso utilize as fórmulas da tabela:'''
 
 altura = float(input('Digite sua altura: '))
 genero = str(input('Qual seu genero? [M/F]'))
