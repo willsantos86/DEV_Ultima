@@ -6,13 +6,13 @@ cursor = conexao.cursor()
 
 cursor.execute('''CREATE TABLE tarefas (id INT NOT NULL PRIMARY KEY, 
 nome VARCHAR(100), 
-data DATE, 
+data VARCHAR(20), 
 categoria VARCHAR(30), 
 concluído TEXT CHECK( concluído IN ('S','N') ));''')
 
 cursor.execute('''CREATE TABLE eventos (id INT NOT NULL, 
 titulo VARCHAR(100), 
-data DATE, 
+data VARCHAR(20), 
 local VARCHAR(100),
 organizador_id INT NOT NULL, 
 PRIMARY KEY (id), 
