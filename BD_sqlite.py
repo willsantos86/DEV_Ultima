@@ -32,4 +32,7 @@ cursor.execute('CREATE TABLE categoria (id INT NOT NULL, nome VARCHAR(100), PRIM
 cursor.execute('CREATE TABLE produto (id INT NOT NULL, nome VARCHAR(100), categoria_id INT NOT NULL, PRIMARY KEY (id), FOREIGN KEY (categoria_id)REFERENCES categoria (id));')
 conexao.commit()
 conexao.close()
-# %%
+
+
+
+
